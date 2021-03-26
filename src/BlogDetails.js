@@ -9,7 +9,7 @@ const BlogDetails = () => {
   const history = useHistory();
 
   const handleClick = () => {
-    fetch("hhttps://rower.netlify.app/blogs/" + blog.id, {
+    fetch("https://rower.netlify.app/blogs/" + blog.id, {
       method: "DELETE",
     }).then(() => {
       history.push("/");
