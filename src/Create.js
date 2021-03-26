@@ -23,7 +23,7 @@ const Create = () => {
     const blogClock = `${blogTime}:${blogMinute} ${blogMonth}.${blogDate} ${blogYear}`;
     const blog = { title, image, time, distance, body, author, blogClock };
 
-    fetch("http://localhost:8000/blogs/", {
+    fetch("https://rower.netlify.app/blogs/", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(blog),
