@@ -1,39 +1,24 @@
 {
   "blogs": [
     {
-      "title": "Tesssssting Images",
-      "image": "https://static01.nyt.com/images/2018/05/03/us/03spongebob_xp/03spongebob_xp-videoSixteenByNineJumbo1600.jpg",
-      "body": "I can't hear you!",
-      "author": "mario",
-      "id": 14
+      "title": "Fyrirmynda æfing Hauks",
+      "image": "https://image.shutterstock.com/image-vector/no-user-profile-picture-hand-260nw-99335579.jpg",
+      "time": "00:45",
+      "distance": "680",
+      "body": "Bara ágætt, fysrta svo kallaða \"sótthvíar\" æfingin",
+      "author": "Haukur",
+      "blogClock": "19:48 2.24 2021",
+      "id": 23
     },
     {
-      "title": "Isssss This worth it? ",
-      "image": "https://1xw7c62t8pgj1bq3qetvvsg1-wpengine.netdna-ssl.com/wp-content/uploads/2021/03/21-s-c-tips-1024x536.jpg",
-      "body": "Ha, I knew you were going to read this 😁",
-      "author": "mario",
-      "id": 15
-    },
-    {
-      "title": "Guess my name!",
-      "image": "data:image/jpeg;base64,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",
-      "body": "Hint: did you look at the author's name ?",
-      "author": "mario",
-      "id": 16
-    },
-    {
-      "title": "Spooky 👻",
-      "image": "https://i0.wp.com/grapevine.is/wp-content/uploads/2019/10/spooky.jpg?fit=3323%2C4441&quality=99&ssl=1",
-      "body": "Shiver me bones !!!",
-      "author": "Siggi",
-      "id": 17
-    },
-    {
-      "title": "testing new service worker",
-      "image": "https://miro.medium.com/max/638/0*PYzkUP5Op7Zivfiy.",
-      "body": "something ",
-      "author": "Anonymous",
-      "id": 19
+      "title": "Þóra er lang flottust",
+      "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/the-movie-clueless-written-and-directed-by-amy-heckerling-news-photo-1590703255.jpg",
+      "time": "00:13",
+      "distance": "2500",
+      "body": "cool! mamma ver vid hliðina á mér ",
+      "author": "Svampur Sveinnson",
+      "blogClock": "8:35 2.25 2021",
+      "id": 24
     }
   ]
 }

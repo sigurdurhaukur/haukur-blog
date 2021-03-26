@@ -24,6 +24,9 @@ const Home = () => {
   return (
     <>
       <div className="home">
+        <h1 className="title">
+          Allar róðrar æfingar fjölskyldunar á Skúlagötu 10.
+        </h1>
         {error && <div>{error}</div>}
         {isPending && <div>Loading...</div>}
         {blogs && <SearchBar input={input} onChange={updateInput} />}

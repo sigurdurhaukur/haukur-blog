@@ -24,7 +24,12 @@ const BlogDetails = () => {
         <article>
           <img className="images" src={blog.image} alt="" />
           <h2>{blog.title}</h2>
-          <p>Written by {blog.author}</p>
+          <p>
+            {blog.author} óð {blog.distance}km á {blog.time}
+          </p>
+          <p>
+            Written by {blog.author} {blog.blogClock}
+          </p>
           <div>{blog.body}</div>
           <button onClick={handleClick}>delete</button>
         </article>

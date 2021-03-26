@@ -22,7 +22,9 @@ body {
   /* bottom = footer height */
   padding: 25px;
 }
-
+.title {
+  padding-bottom: 2rem;
+}
 .navbar {
   padding: 20px;
   display: flex;

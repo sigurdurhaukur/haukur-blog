@@ -11,7 +11,10 @@ const BlogList = ({ blogs }) => {
             </div>
             <div className="right">
               <h2>{blog.title}</h2>
-              <p>Written by {blog.author}</p>
+              <p>
+                {blog.author} réri {blog.distance}km á {blog.time}
+              </p>
+              <p>{blog.blogClock}</p>
             </div>
           </Link>
         </div>

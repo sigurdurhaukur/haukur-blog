@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer>
-      <p>Made by Siggi</p>
+      <p>Haukur forritaði þessa yndislegu síðu 😋</p>
     </footer>
   );
 };
